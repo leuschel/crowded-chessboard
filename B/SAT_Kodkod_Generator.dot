@@ -1,0 +1,8 @@
+digraph prob_graph { graph [page="8.5, 11",ratio=fill,size="7.5,10"];
+ 1 [shape=record, style=bold, color="green", fontsize=12, label="|{SETUP_CONSTANTS\n|# states: 1}|"];
+ 2 [shape=record, color="orange", fontsize=12, label="|{NOT YET EXPLORED\n|# states: 1}|"];
+
+
+ 1 ->  2 [color="black", label="SETUP_CONSTANTS", fontsize=12];
+
+}
